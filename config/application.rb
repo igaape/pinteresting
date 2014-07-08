@@ -22,5 +22,6 @@ module Pinteresting
 
     config.assets.initialize_on_precompile = false
     # Required for Heroku
+    config.assets.precompile += %w( asset.js asset.css )
   end
 end
