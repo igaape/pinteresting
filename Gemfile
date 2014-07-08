@@ -36,6 +36,11 @@ gem 'aws-sdk', '~> 1.20.0'
 #Amazon S3 webservices gem to store uploaded images
 
 
+gem 'will_paginate-bootstrap'
+gem 'will_paginate', '~> 3.0.5'
+#Getting Numbered Pages
+
+
 gem 'masonry-rails', '~> 0.2.0'
 # jQuery Masonry Gem for Styling the App
 
