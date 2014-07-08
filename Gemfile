@@ -26,7 +26,13 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'devise', '~> 3.1.0.rc2'
+#User Login / Database Gem
+
 gem 'paperclip', github: 'thoughtbot/paperclip'
+#Image Upload Gem
+
+gem 'aws-sdk', '~> 1.20.0'
+#Amazon S3 webservices gem to store uploaded images
 
 group :development, :test do
 	gem 'sqlite3'
