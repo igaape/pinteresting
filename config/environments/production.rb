@@ -27,6 +27,7 @@ Rails.application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
+  # Changing value from false to true fixed Glyphicons not showing on heroku
   config.assets.compile = true
 
   # Generate digests for assets URLs.
