@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/thoughtbot/paperclip.git
-  revision: f1feed0c30443f15abb490667d1920d2648fe00e
+  revision: dca87ec5d8038b2d436a75ad6119c8eb67b73e70
   specs:
-    paperclip (4.1.1)
+    paperclip (4.2.0)
       activemodel (>= 3.0.0)
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
@@ -65,6 +65,8 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
+    disqus (1.0.4)
+      json
     erubis (2.7.0)
     execjs (2.2.1)
     hike (1.2.3)
@@ -165,6 +167,7 @@ DEPENDENCIES
   bootstrap-sass
   coffee-rails (~> 4.0.0)
   devise (~> 3.1.0.rc2)
+  disqus (~> 1.0.4)
   jbuilder (~> 2.0)
   jquery-rails
   jquery-turbolinks

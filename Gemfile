@@ -41,6 +41,10 @@ gem 'will_paginate', '~> 3.0.5'
 #Getting Numbered Pages
 
 
+gem 'disqus', '~> 1.0.4'
+# Disqus > Comment / Discussion system
+
+
 gem 'masonry-rails', '~> 0.2.0'
 # jQuery Masonry Gem for Styling the App
 
